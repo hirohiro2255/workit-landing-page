@@ -35,12 +35,15 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 .header-container {
-  width: min(91.4%, 1110px);
-  margin-right: auto;
-  margin-left: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.w-container {
+  width: min(91.4%, 1110px);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header-btn {
@@ -57,4 +60,8 @@ h1, h2, h3, h4, h5, p, ul {
 .header-btn:hover {
   color: var(--light-green);
   transition: ease-in .2s;
+}
+
+.hero {
+  background: var(--very-dark-blue);
 }
